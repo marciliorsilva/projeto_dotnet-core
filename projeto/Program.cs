@@ -58,8 +58,21 @@ namespace projeto
                         }
 
                         decimal mediaGeral = soma / qtdeAlunos;
+                        ConceitoNota conceito;
 
-                        Console.WriteLine($"Media Geral dos alunos : {mediaGeral}");
+                        if(mediaGeral < 2){
+                            conceito = ConceitoNota.E;
+                        } else if(mediaGeral < 4){
+                            conceito = ConceitoNota.D;
+                        }else if(mediaGeral < 6){
+                            conceito = ConceitoNota.C;
+                        }else if(mediaGeral < 8){
+                            conceito = ConceitoNota.B;
+                        }else{
+                            conceito = ConceitoNota.A;
+                        }
+                        
+                        Console.WriteLine($"Media Geral dos alunos : {mediaGeral} - CONCEITO: {conceito}");
                         Console.WriteLine();
 
 
