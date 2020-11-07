@@ -34,17 +34,36 @@ namespace projeto
 
                         break;
                     case "2":
+                        Console.WriteLine("-------------- Lista de alunos ---------------");
                         for (int i = 0; i < alunos.Length; i++){
                             if(alunos[i].Nome != null){
-                                Console.WriteLine("-------------- Lista de alunos ---------------");
+                               
                                 Console.WriteLine($"Nome: {alunos[i].Nome} - Nota: {+ alunos[i].Nota}");
-                                Console.WriteLine("--------------------------------------");
-                                Console.WriteLine();
+                              
                             }
                             
                         }
+                        Console.WriteLine("--------------------------------------");
+                        Console.WriteLine();
                         break;
-                    case "3": 
+                    case "3":
+                        decimal soma = 0;
+                        decimal qtdeAlunos = 0;
+                        foreach (var a in alunos){
+                            if(!string.IsNullOrEmpty(a.Nome)){
+                                soma += a.Nota;
+                                qtdeAlunos ++;
+                            }
+                            
+                        }
+
+                        decimal mediaGeral = soma / qtdeAlunos;
+
+                        Console.WriteLine($"Media Geral dos alunos : {mediaGeral}");
+                        Console.WriteLine();
+
+
+                       
                         break;
                     default: 
                         throw new ArgumentOutOfRangeException();
