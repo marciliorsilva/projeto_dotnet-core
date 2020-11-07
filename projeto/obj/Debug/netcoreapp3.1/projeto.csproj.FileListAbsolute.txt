@@ -1,0 +1,13 @@
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.csprojAssemblyReference.cache
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.AssemblyInfoInputs.cache
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.AssemblyInfo.cs
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.csproj.CoreCompileInputs.cache
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.exe
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.deps.json
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.runtimeconfig.json
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.runtimeconfig.dev.json
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.dll
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\bin\Debug\netcoreapp3.1\projeto.pdb
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.dll
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.pdb
+C:\Users\Selma\projetos\dotnet\projeto_dotnet-core\projeto\obj\Debug\netcoreapp3.1\projeto.genruntimeconfig.cache
